@@ -37,4 +37,4 @@ class ConfigReplacer(object):
         self.write()
 
     def __str__(self):
-        return '<ConfigReplacer "{}">'.format(self.fname)
+        return '<ConfigReplacer with {} at {}>'.format(self.fname, id(self))
